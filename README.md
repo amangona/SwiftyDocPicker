@@ -10,11 +10,10 @@ Initializing a DocumentPicker
 ```
 var documentPicker: DocumentPicker!
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-    
-        documentPicker = DocumentPicker(presentationController: self, delegate: self)
-    }
+ override func viewDidLoad() {
+    super.viewDidLoad()
+    documentPicker = DocumentPicker(presentationController: self, delegate: self)
+ }
  ```
  Presenting the picker
  ```
