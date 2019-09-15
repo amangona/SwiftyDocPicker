@@ -82,7 +82,7 @@ extension DocumentPicker: UIDocumentPickerDelegate{
     }
     
     public func documentPickerWasCancelled(_ controller: UIDocumentPickerViewController) {
-        delegate?.didPickDocuments(documents: documents)
+        delegate?.didPickDocuments(documents: nil)
     }
     
     private func documentFromURL(pickedURL: URL) {

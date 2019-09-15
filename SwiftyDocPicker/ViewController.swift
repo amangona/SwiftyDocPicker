@@ -18,7 +18,7 @@ class ViewController: UIViewController, DocumentDelegate {
         documentPicker = DocumentPicker(presentationController: self, delegate: self)
     }
 
-    func didPickDocuments(documents: [Document]) {
+    func didPickDocuments(documents: [Document]?) {
         // handle selected documents
     }
 

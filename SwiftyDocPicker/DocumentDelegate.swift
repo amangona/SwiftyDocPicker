@@ -14,5 +14,5 @@ public enum SourceType: Int {
 }
 
 protocol DocumentDelegate: class {
-    func didPickDocuments(documents: [Document])
+    func didPickDocuments(documents: [Document]?)
 }
