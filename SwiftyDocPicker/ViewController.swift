@@ -20,6 +20,12 @@ class ViewController: UIViewController, DocumentDelegate {
 
     func didPickDocuments(documents: [Document]?) {
         // handle selected documents
+        let document = documents?.first
+        document?.open(completionHandler: { (isOpen) in
+            if isOpen {
+                print("docoument is open")
+            }
+        })
     }
 
     
