@@ -2,7 +2,7 @@
 A very "Swifty" approach to picking documents. Document selection had never been easier.
 
 ## Usage
-Its as simple as conforming to a the DocumentDelegate
+Its as simple as conforming to the DocumentDelegate
 ```
 class ViewController: UIViewController, DocumentDelegate {
 ```
