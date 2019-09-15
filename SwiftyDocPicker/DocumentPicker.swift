@@ -31,7 +31,7 @@ open class DocumentPicker: NSObject {
             self.pickerController = UIDocumentPickerViewController(documentTypes: [kUTTypeFolder as String], in: .open)
             self.pickerController!.delegate = self
             self.pickerController!.allowsMultipleSelection = true
-            self.sourceType = .folder
+            self.sourceType = type
             self.presentationController?.present(self.pickerController!, animated: true)
         }
     }
@@ -40,7 +40,7 @@ open class DocumentPicker: NSObject {
         return UIAlertAction(title: title, style: .default) { [unowned self] _ in
             self.pickerController = UIDocumentPickerViewController(documentTypes: [kUTTypeMovie as String, kUTTypeImage as String], in: .open)
             self.pickerController!.delegate = self
-            self.sourceType = .files
+            self.sourceType = type
             self.presentationController?.present(self.pickerController!, animated: true)
         }
     }
@@ -53,7 +53,7 @@ open class DocumentPicker: NSObject {
             alertController.addAction(action)
         }
         
-        if let action = self.folderAction(for: .files, title: "Folder") {
+        if let action = self.folderAction(for: .folder, title: "Folder") {
             alertController.addAction(action)
         }
         

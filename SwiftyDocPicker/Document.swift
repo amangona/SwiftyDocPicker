@@ -24,7 +24,6 @@ class Document: UIDocument {
         
         self.data = data
     }
-
     
 }
 
