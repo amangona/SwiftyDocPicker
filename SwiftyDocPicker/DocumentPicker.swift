@@ -30,7 +30,6 @@ open class DocumentPicker: NSObject {
         return UIAlertAction(title: title, style: .default) { [unowned self] _ in
             self.pickerController = UIDocumentPickerViewController(documentTypes: [kUTTypeFolder as String], in: .open)
             self.pickerController!.delegate = self
-            self.pickerController!.allowsMultipleSelection = true
             self.sourceType = type
             self.presentationController?.present(self.pickerController!, animated: true)
         }
@@ -40,6 +39,7 @@ open class DocumentPicker: NSObject {
         return UIAlertAction(title: title, style: .default) { [unowned self] _ in
             self.pickerController = UIDocumentPickerViewController(documentTypes: [kUTTypeMovie as String, kUTTypeImage as String], in: .open)
             self.pickerController!.delegate = self
+            self.pickerController!.allowsMultipleSelection = true
             self.sourceType = type
             self.presentationController?.present(self.pickerController!, animated: true)
         }
