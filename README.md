@@ -1,7 +1,7 @@
 # SwiftyDocPicker
 A very "Swifty" approach to picking documents. Document selection had never been easier.
 
-![documents](./screenshots/documents.png)
+![documents](./screenshots/documents.jpeg)
 
 ## Usage
 Its as simple as conforming to the DocumentDelegate
