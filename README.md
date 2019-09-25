@@ -9,7 +9,7 @@ Its as simple as conforming to the DocumentDelegate
 class ViewController: UIViewController, DocumentDelegate {
 ```
 Initializing a DocumentPicker
-```
+```swift
 var documentPicker: DocumentPicker!
 
  override func viewDidLoad() {
@@ -18,11 +18,11 @@ var documentPicker: DocumentPicker!
  }
  ```
  Presenting the picker
- ```
+ ```swift
  documentPicker.present(from: view)
  ```
  And responding to the delegate function
- ```
+ ```swift
  func didPickDocuments(documents: [Document]) {
         // handle selected documents
  }
