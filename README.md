@@ -5,7 +5,7 @@ A very "Swifty" approach to picking documents. Document selection had never been
 
 ## Usage
 Its as simple as conforming to the DocumentDelegate
-```
+```swift
 class ViewController: UIViewController, DocumentDelegate {
 ```
 Initializing a DocumentPicker
