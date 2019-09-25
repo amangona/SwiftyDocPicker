@@ -15,6 +15,9 @@
 		30AF74A3232DE6B8006D10C7 /* DocumentDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30AF74A2232DE6B8006D10C7 /* DocumentDelegate.swift */; };
 		30AF74A5232DE6E5006D10C7 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30AF74A4232DE6E5006D10C7 /* Document.swift */; };
 		30AF74A7232DE708006D10C7 /* DocumentPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30AF74A6232DE708006D10C7 /* DocumentPicker.swift */; };
+		30EBC563233BE10B001002D9 /* DocumentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EBC562233BE10B001002D9 /* DocumentCell.swift */; };
+		30EBC565233BF329001002D9 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EBC564233BF329001002D9 /* Colors.swift */; };
+		30EBC567233BF3C6001002D9 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EBC566233BF3C6001002D9 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,9 @@
 		30AF74A2232DE6B8006D10C7 /* DocumentDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentDelegate.swift; sourceTree = "<group>"; };
 		30AF74A4232DE6E5006D10C7 /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
 		30AF74A6232DE708006D10C7 /* DocumentPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentPicker.swift; sourceTree = "<group>"; };
+		30EBC562233BE10B001002D9 /* DocumentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentCell.swift; sourceTree = "<group>"; };
+		30EBC564233BF329001002D9 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		30EBC566233BF3C6001002D9 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +75,9 @@
 				30AF74A2232DE6B8006D10C7 /* DocumentDelegate.swift */,
 				30AF74A4232DE6E5006D10C7 /* Document.swift */,
 				30AF74A6232DE708006D10C7 /* DocumentPicker.swift */,
+				30EBC562233BE10B001002D9 /* DocumentCell.swift */,
+				30EBC564233BF329001002D9 /* Colors.swift */,
+				30EBC566233BF3C6001002D9 /* Extensions.swift */,
 			);
 			path = SwiftyDocPicker;
 			sourceTree = "<group>";
@@ -144,8 +153,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30EBC563233BE10B001002D9 /* DocumentCell.swift in Sources */,
 				30AF74A5232DE6E5006D10C7 /* Document.swift in Sources */,
 				30AF7493232DE56A006D10C7 /* ViewController.swift in Sources */,
+				30EBC567233BF3C6001002D9 /* Extensions.swift in Sources */,
+				30EBC565233BF329001002D9 /* Colors.swift in Sources */,
 				30AF74A3232DE6B8006D10C7 /* DocumentDelegate.swift in Sources */,
 				30AF74A7232DE708006D10C7 /* DocumentPicker.swift in Sources */,
 				30AF748F232DE56A006D10C7 /* AppDelegate.swift in Sources */,
