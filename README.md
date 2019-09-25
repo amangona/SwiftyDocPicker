@@ -25,3 +25,4 @@ var documentPicker: DocumentPicker!
         // handle selected documents
  }
  ```
+ Read more on [Medium](https://medium.com/@abrahammangona/a-swifty-way-to-pick-documents-59cad1988a8a)
